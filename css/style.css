@@ -34,6 +34,7 @@ html {
 body {
     background-color: var(--bg--color-01);
     color: var(--text-color);
+    /* padding: 0 1rem; */
 }
 
 header {
@@ -82,21 +83,23 @@ span {
     background-color: var(--main-color);
 }
 
+.about {
+    margin: 1rem;
+}
+
+
 .home, .about {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    padding: 0 1rem;
 }
 
 
 
 .home-img img, .about-img img {
     width: 100%;
-}
-
-.about {
-    background-color: var(--bg--color-02);
 }
 
 
@@ -108,12 +111,13 @@ span {
 .home-content h3, .about-content h3{
     font-weight: 700;
     font-size: 1.6rem;
+    margin-top: 80px;
 }
 
 
 .home-content p, .about-content p {
     margin-top: 1.2rem;
-    text-align: justify; 
+    text-align: justify;
 }
 
 .conhecimentos h2,
@@ -127,11 +131,15 @@ span {
     
 }
 
+.conhecimentos {
+    padding: 0 2rem;
+}
+
 .conhecimentos-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 0.4rem
+    gap: 0.4rem;
 }
 
 .conhecimentos-box {
@@ -153,7 +161,7 @@ span {
 
 .servconhecimentos-container .conhecimentos-box:hover {
     border-color: var(--main-color);
-    transform: scale(1.01)
+    transform: scale(1.01);
 }
 
 .conhecimentos-box i {
@@ -174,7 +182,9 @@ span {
 } 
 
 .portfolio{
-    background-color: var(--bg--color-02);
+    /* background-color: var(--bg--color-02); */
+    padding: 0 1rem;
+    margin: 2rem 0;
 }
 
 .portfolio-container {
@@ -341,9 +351,9 @@ footer {
         gap: 1.2rem;
     }
 
-    .home-img .about-img {
-        width: 80%;
-        max-width: 80%;
+    .home-img {
+        width: 50%;
+        max-width: 50%;
     }
 
     .home-content .about-content{
@@ -374,9 +384,9 @@ footer {
 
 
 @media (min-width: 576px) {
-    .home-img .about-img{
-        width: 65%;
-        max-width: 65%;
+    .home-img {
+        width: 45%;
+        max-width: 45%;
     }
 
     .conhecimentos-box {
@@ -400,9 +410,14 @@ footer {
         display: none;
     }
 
-    .home, .about {
+    .home {
         flex-direction: row;
         justify-content: space-evenly;
+    }
+
+    .about {
+        flex-direction: column;
+        justify-content: center;
     }
 
     .home-img, .about-img {
