@@ -34,7 +34,6 @@ html {
 body {
     background-color: var(--bg--color-01);
     color: var(--text-color);
-    /* padding: 0 1rem; */
 }
 
 header {
@@ -182,7 +181,6 @@ span {
 } 
 
 .portfolio{
-    /* background-color: var(--bg--color-02); */
     padding: 0 1rem;
     margin: 2rem 0;
 }
@@ -237,7 +235,7 @@ span {
 
 .portfolio-layer a i {
     font-size: 1.2rem;
-    color: #000;
+    color: #ffffff;
 }
 
 form {
@@ -343,8 +341,6 @@ footer {
         font-size: 1.2rem;
         margin: 0.5rem 0;
     }
-
-
 
     .home, .about {
         flex-direction: column;
