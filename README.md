@@ -63,4 +63,8 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
+<<<<<<< HEAD
 Desenvolvido com ❤️ por Matheus Felipe 
+=======
+Desenvolvido por Matheus Felipe 
+>>>>>>> a23470d95892d5a9b7c5f5e9d5093a9183ec7dd6
